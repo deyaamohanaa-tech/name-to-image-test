@@ -50,8 +50,8 @@ html_file = os.path.join(os.getcwd(), "temp_name.html")
 with open(html_file, "w", encoding="utf-8") as f:
     f.write(html_content)
 
-# فتح HTML
-driver.get("file://" + html_file)
+# فتح HTML باستخدام المسار الكامل
+driver.get("file://" + os.path.abspath(html_file))
 time.sleep(1)  # انتظر التحميل
 
 # التقاط العنصر فقط
