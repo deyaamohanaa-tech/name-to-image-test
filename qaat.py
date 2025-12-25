@@ -6,7 +6,7 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-FONT_PATH = os.path.join(BASE_DIR, "Cocon® Next Arabic-Light.otf")
+FONT_PATH = os.path.join(BASE_DIR, "sultan-nahia.ttf")
 OUTPUT_PATH = os.path.join(BASE_DIR, "arabic_text.png")
 
 
