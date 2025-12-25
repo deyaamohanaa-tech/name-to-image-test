@@ -2,4 +2,4 @@ pillow
 pilmoji
 arabic-reshaper
 python-bidi
-emoji
+emoji==1.7.0
