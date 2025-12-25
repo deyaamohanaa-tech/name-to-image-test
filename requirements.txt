@@ -1,0 +1,5 @@
+pillow
+pilmoji
+arabic-reshaper
+python-bidi
+emoji
